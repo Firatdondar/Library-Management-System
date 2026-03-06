@@ -1,0 +1,6 @@
+ID	Title	Author	Stock
+1001	The Lord of the Rings	J.R.R. Tolkien	3
+1002	1984	George Orwell	5
+1003	Dune	Frank Herbert	2
+1004	Foundation	Isaac Asimov	0
+1005	Neuromancer	William Gibson	4

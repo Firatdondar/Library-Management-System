@@ -1,0 +1,5 @@
+Student ID	Student Name	Book ID	Operation
+101	Alice Smith	1001	1
+102	Bob Jones	1004	1
+103	Charlie Brown	1004	1
+101	Alice Smith	1001	0
