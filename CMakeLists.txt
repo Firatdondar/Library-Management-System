@@ -7,3 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(include)
 
 add_executable(LibraryManagementSystem src/main.cpp src/Library.cpp)
+
+file(COPY data DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

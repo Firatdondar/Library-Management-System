@@ -16,7 +16,7 @@ A robust, terminal-based Library Management System built strictly using foundati
 * **Language:** C++ (Standard 17)
 * **Architecture:** Object-Oriented Programming (OOP) with custom structs/classes
 * **Build System:** CMake
-* **Compiler:** GCC (MinGW-w64)
+* **Compiler:** GCC (MinGW-w64) / Clang / MSVC
 
 ## 🚀 Installation & Build Instructions
 
@@ -27,5 +27,17 @@ A robust, terminal-based Library Management System built strictly using foundati
 ### Build Steps
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Firatdondar/LibraryManagementSystem.git](https://github.com/Firatdondar/LibraryManagementSystem.git)
+   git clone https://github.com/Firatdondar/LibraryManagementSystem.git
    cd LibraryManagementSystem
+   ```
+2. Configure and build using CMake:
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
+   ```
+3. Run the application:
+   ```bash
+   ./LibraryManagementSystem
+   ```
